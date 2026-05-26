@@ -7,10 +7,11 @@ function SingleProject({ imgUrl, title, description, techStack, githubUrl, liveU
       <h2 className="text-xl font-semibold mt-4 text-left pl-4">{title}</h2>
       <p className="text-gray-300 mt-4 text-left pl-4">{description}</p>
       <div className="flex gap-2 ml-4 mt-4">
-        <button className="border border-blue-900 px-2 py-1 rounded-xl">{techStack[0]}</button>
-        <button className="border border-blue-900 px-2 py-1 rounded-xl">{techStack[1]}</button>
-        <button className="border border-blue-900 px-2 py-1 rounded-xl">{techStack[2]}</button>
-        <button className="border border-blue-900 px-2 py-1 rounded-xl">{techStack[3]}</button>
+        {techStack.map((tech)=>{
+          return(
+            <button className="border border-blue-900 px-2 py-1 rounded-xl">{tech}</button>
+          )
+        })}
       </div>
       <div className="flex gap-3 mt-4 px-1 pb-4">
         <Link to={githubUrl}>

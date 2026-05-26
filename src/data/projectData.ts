@@ -4,7 +4,7 @@ export const projectData = [
     title: "MERN Todo App (2025)",
     description:
       "A fully functional Todo application with authentication, CRUD operations, and a clean, responsive UI.",
-    techStack: ["React", "MongoDB", "Express.js", "Node.js", "Node.js"],
+    techStack: ["React", "MongoDB", "Express.js", "Node.js"],
     githubUrl: "",
     liveUrl: "",
   },
@@ -13,7 +13,7 @@ export const projectData = [
     title: "MERN Todo App (2025)",
     description:
       "A fully functional Todo application with authentication, CRUD operations, and a clean, responsive UI.",
-    techStack: ["React", "MongoDB", "Express.js", "Node.js", "Node.js"],
+    techStack: ["React", "MongoDB", "Express.js", "Node.js"],
     githubUrl: "",
     liveUrl: "",
   },
@@ -22,7 +22,7 @@ export const projectData = [
     title: "MERN Todo App (2025)",
     description:
       "A fully functional Todo application with authentication, CRUD operations, and a clean, responsive UI.",
-    techStack: ["React", "MongoDB", "Express.js", "Node.js", "Node.js"],
+    techStack: ["React", "MongoDB", "Express.js", "Node.js"],
     githubUrl: "",
     liveUrl: "",
   },
@@ -31,7 +31,7 @@ export const projectData = [
     title: "MERN Todo App (2025)",
     description:
       "A fully functional Todo application with authentication, CRUD operations, and a clean, responsive UI.",
-    techStack: ["React", "MongoDB", "Express.js", "Node.js", "Node.js"],
+    techStack: ["React", "MongoDB", "Express.js", "Node.js"],
     githubUrl: "",
     liveUrl: "",
   },
