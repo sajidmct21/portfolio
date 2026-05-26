@@ -14,21 +14,19 @@ function SingleProject({ imgUrl, title, description, techStack, githubUrl, liveU
       </div>
       <div className="flex gap-3 mt-4 px-1 pb-4">
         <Link to={githubUrl}>
-          <button className="mx-2 flex gap-1 rounded-2xl items-center px-5 py-2 bg-linear-to-r from-[#1C91FF] to-[#FB3B3E]">
+          <button className="mx-2 cursor-pointer flex gap-1 rounded-2xl items-center px-5 py-2 bg-linear-to-r from-[#1C91FF] to-[#FB3B3E]">
             <span>Github</span>
             <img src="/whiteArrow.svg" alt="Arrow Icon" className="h-4 w-4 text-white" />
           </button>
         </Link>
         <button className="mx-2 flex gap-2 justify-center items-center rounded-2xl px-5 py-2 bg-[#1C91FF]">
           <Link to={liveUrl}>
-          <div className="flex gap-2 justify-center items-center">
-            <span>Live Demo</span>
-            <img src="/whiteArrow.svg" alt="Arrow Icon" className="h-4 w-4 text-white" />
+            <div className="flex gap-2 justify-center items-center">
+              <span>Live Demo</span>
+              <img src="/whiteArrow.svg" alt="Arrow Icon" className="h-4 w-4 text-white" />
             </div>
           </Link>
-
         </button>
-
       </div>
     </div>
   )
