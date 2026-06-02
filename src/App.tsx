@@ -1,21 +1,7 @@
-import About from './components/About'
-import Hero from './components/Hero'
-import Nav from './components/Nav'
-import Project from './components/Project'
-import Skills from './components/Skills'
+import Page from "./pages/page"
 
 function App() {
-
-  return (
-    <>
-      <Nav />
-      <About/>
-      <Hero />
-      <Skills/>
-      <Project/>
-
-    </>
-  )
+  return <Page />
 }
 
 export default App
